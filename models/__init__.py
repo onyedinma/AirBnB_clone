@@ -1,12 +1,7 @@
 #!/usr/bin/python3
-"""models module
-"""
-
-
+"""__init__ magic method for models directory"""
 from models.engine.file_storage import FileStorage
-"""
-    Create a unique FileStorage instance.
-"""
+
 
 storage = FileStorage()
 storage.reload()
