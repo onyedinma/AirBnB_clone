@@ -66,6 +66,52 @@ Here's a table summarizing the available commands:
 
 The initial phase of the AirBnB project focuses on building the console and connecting it to a JSON storage system for data persistence. This enables saving and retrieving information.
 
+# Files
+This is the project file structure according to requirements.
+```
+AirBnB_clone/
+├── AUTHORS
+├── console.py
+├── models
+│   ├── amenity.py
+│   ├── base_model.py
+│   ├── city.py
+│   ├── engine
+│   │   ├── file_storage.py
+│   │   └── __init__.py
+│   ├── __init__.py
+│   ├── place.py
+│   ├── review.py
+│   ├── state.py
+│   └── user.py
+├── README.md
+└── tests
+    ├── __init__.py
+    └── test_models
+        ├── __init__.py
+        ├── test_amenity.py
+        ├── test_base_model.py
+        ├── test_city.py
+        ├── test_engine
+        │   ├── __init__.py
+        │   └── test_file_storage.py
+        ├── test_place.py
+        ├── test_review.py
+        ├── test_state.py
+        └── test_user.py
+```
+
+
+## Testing
+```
+$ python3 -m unittest discover tests
+```
+
+
+## Authors
+
+ - Onyedinma Onyekachi, E-Mail: <onyedinmaonyekachi@yahoo.com>
+
 **Additional Notes:**
 
 * The AirBnB console app is under active development.
